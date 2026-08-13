@@ -1,33 +1,57 @@
-import chromadb
-from sentence_transformers import SentenceTransformer
-from langchain_ollama import OllamaLLM
+# src/rag.py
+from langchain_google_genai import ChatGoogleGenerativeAI
+# To this
+from langchain_core.messages import HumanMessage, SystemMessage
+from src.retriever import retrieve
+from dotenv import load_dotenv
+import os
 
-model = SentenceTransformer("all-MiniLM-L6-v2")
-client = chromadb.PersistentClient(path="./chroma_db")
-col = client.get_collection("rag_docs")
-llm = OllamaLLM(model="llama3.2:3b")
+load_dotenv()
 
-def retrieve(query: str, k: int = 5):
-    emb = model.encode([query]).tolist()
-    results = col.query(query_embeddings=emb, n_results=k)
-    return results["documents"][0]
+llm = ChatGoogleGenerativeAI(
+    model="gemini-3.1-flash-lite",
+    temperature=0,
+    google_api_key=os.getenv("GOOGLE_API_KEY")
+)
 
-def ask(question: str) -> dict:
-    chunks = retrieve(question)
-    context = "\n\n".join(chunks)
-    prompt = f"""Use the context below to answer the question.
-If the answer is not in the context, say "I don't know".
+SYSTEM_PROMPT = """You are a helpful assistant that answers questions \
+based strictly on the provided context. \
+If the answer is not in the context, say "I don't know based on the provided documents." \
+Do not make up information."""
 
-Context:
-{context}
-
-Question: {question}
-Answer:"""
-    answer = llm.invoke(prompt)
-    return {"answer": answer, "sources": chunks}
+def ask(question: str, k: int = 5) -> dict:
+    chunks = retrieve(question, k=k)  # list of dicts: {text, source, score}
+    
+    context = "\n\n".join([
+        f"[Source: {c['source']}]\n{c['text']}"
+        for c in chunks
+    ])
+    
+    messages = [
+        SystemMessage(content=SYSTEM_PROMPT),
+        HumanMessage(content=f"Context:\n{context}\n\nQuestion: {question}")
+    ]
+    
+    response = llm.invoke(messages)
+    
+    # Fix: extract text from response correctly
+    answer = response.content
+    if isinstance(answer, list):          # newer LangChain returns a list of blocks
+        answer = " ".join(
+            block.get("text", "") if isinstance(block, dict) else str(block)
+            for block in answer
+        )
+    
+    return {
+        "answer" : answer,
+        "sources": [{"text": c["text"][:150], "score": c["score"]} for c in chunks],
+        "model"  : "gemini-3.1-flash-lite"
+    }
 
 if __name__ == "__main__":
-    result = ask("What is the main topic of these documents?")
-    print("Answer:", result["answer"])
-    print("\nTop source chunk:")
-    print(result["sources"][0][:300])
+    q = "What are the physical properties of bamboo like density and diameter?"
+    result = ask(q)
+    print(f"\nQuestion: {q}")
+    print(f"\nAnswer:\n{result['answer']}")
+    print(f"\nTop source (score: {result['sources'][0]['score']}):")
+    print(result['sources'][0]['text'])
