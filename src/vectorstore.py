@@ -1,11 +1,8 @@
 # src/vectorstore.py
 import chromadb
 from sentence_transformers import SentenceTransformer
+from src.config import COLLECTION, DB_PATH, EMBED_MODEL
 from src.ingest import load_documents, chunk_documents
-
-EMBED_MODEL = "all-MiniLM-L6-v2"
-COLLECTION  = "rag_docs"
-DB_PATH     = "./chroma_db"
 
 # module-level singletons — loaded once, reused across calls
 _model  = None

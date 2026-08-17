@@ -1,0 +1,320 @@
+{
+  "generated_at": "2026-08-17T23:21:14.056399+00:00",
+  "generator": "gemini-3.1-flash-lite",
+  "summary": {
+    "faithfulness": 0.955,
+    "context_precision": 0.9021,
+    "context_recall": 0.7917,
+    "answer_relevancy": 0.8927,
+    "hallucination_rate": 0.045
+  },
+  "runs": [
+    {
+      "mode": "hybrid_rerank",
+      "k": 5,
+      "generator": "gemini-3.1-flash-lite",
+      "engine": "ragas",
+      "summary": {
+        "faithfulness": 0.955,
+        "context_precision": 0.9021,
+        "context_recall": 0.7917,
+        "answer_relevancy": 0.8927,
+        "hallucination_rate": 0.045
+      },
+      "samples": [
+        {
+          "id": "q01",
+          "question": "What are the physical properties of bamboo like density and diameter?",
+          "answer": "Based on the provided documents, the physical properties of bamboo are as follows:\n\n*   **Density:** \n    *   According to *10_Physical Chemical Properties of Bamboo.pdf* (p. 10), the density is 0.54 \u2013 0.78 gm/cm\u00b3.\n    *   *IS 15912.pdf* (p. 7) provides specific density values for various Indian bamboo species in round form, ranging from 559 to 783 kg/m\u00b3 in green condition and 663 to 672 kg/m\u00b3 in air-dry condition.\n*   **Diameter:** According to *10_Physical Chemical Properties of Bamboo.pdf* (p. 10), the diameter varies from 20 \u2013 300 mm.",
+          "latency_ms": 267522,
+          "sources": [
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "10_Physical  Chemical Properties of Bamboo.pdf",
+            "10_Physical  Chemical Properties of Bamboo.pdf",
+            "10_Physical  Chemical Properties of Bamboo.pdf"
+          ]
+        },
+        {
+          "id": "q02",
+          "question": "What is the grading system for bamboo culms under IS 15912?",
+          "answer": "According to **IS 15912.pdf** (p. 9), bamboo is graded to ensure its properties are satisfactory for structural use, specifically regarding strength and stiffness. Grading is performed by sorting bamboo based on characteristics important for structural utilization, which include:\n\n*   Diameter and length of culm;\n*   Taper of culm;\n*   Straightness of culm;\n*   Inter nodal length and distribution of nodes;\n*   Wall thickness;\n*   Density and strength; and\n*   Durability and seasoning.\n\nOne or a combination of these characteristics forms the basis of grading, and culms must be segregated species-wise (p. 10).\n\nFor structural Group A and Group B species, gradation based on the mean outer diameter is categorized as follows (p. 10):\n*   **Special grade:** Diameter > 70 mm\n*   **Grade I:** 50 mm < Diameter \u2264 70 mm\n*   **Grade II:** 30 mm < Diameter \u2264 50 mm\n*   **Grade III:** Diameter < 30 mm",
+          "latency_ms": 4363,
+          "sources": [
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf"
+          ]
+        },
+        {
+          "id": "q03",
+          "question": "How is bamboo used in structural design and construction?",
+          "answer": "Based on the provided documents, bamboo is used in structural design and construction in the following ways:\n\n*   **Structural Applications:** Bamboo is used in buildings for its mechanical resistance and durability. It is utilized in various forms, including round bamboo, split bamboo, glued laminated bamboo, and bamboo-based panels joined with adhesives or mechanical fasteners (IS 15912.pdf, p. 3).\n*   **Structural Components:** Bamboo is used in the construction of trusses, foundations, walling, flooring, and roofing (IS 15912.pdf, p. 2). In elevated floors, bamboo members serve as an integral part of the building's structural framework, comprising structural elements and decking (IS 15912.pdf, p. 21).\n*   **Reinforcement:** Due to its high tensile strength, bamboo can be used as an alternative material for reinforcement in concrete (IS 15912.pdf, p. 21).\n*   **Material Properties:** Because of its physical and mechanical properties\u2014such as straightness, lightness, hardness, and low shrinkage\u2014bamboo is well-suited to replace wood in several applications, particularly in slat and panel form (IS 15912.pdf, p. 2).\n*   **Construction Practices:** The standard covers constructional aspects including work on-site, off-site fabrication of components, and their erection on-site (IS 15912.pdf, p. 3). Jointing techniques must be in accordance with the provisions in the code (IS 15912.pdf, p. 21).",
+          "latency_ms": 2469,
+          "sources": [
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf"
+          ]
+        },
+        {
+          "id": "q04",
+          "question": "How does bamboo compare to steel and wood as a structural material?",
+          "answer": "Based on the provided documents, bamboo compares to steel and wood in the following ways:\n\n*   **Comparison to Steel:** The ultimate tensile strength of some bamboo species in direct tension is nearly the same as that of steel at its yield point, varying on average from 1,400 to 2,000 kg/cm\u00b2 (IS 15912.pdf, p. 21). Additionally, the principles used for designing concrete structures with steel are also applicable to concrete members reinforced with bamboo (IS 15912.pdf, p. 21).\n*   **Comparison to Wood:** Bamboo is well-suited to replace wood in several applications, particularly in slat and panel form, due to its good physical and mechanical properties, low shrinkage, and good average density (IS 15912.pdf, p. 2). Furthermore, bamboo mat board (BMB) and bamboo mat veneer composite (BMVC) are more flexible than equivalent plywood (IS 15912.pdf, p. 23).\n*   **General Structural Characteristics:** Bamboo is noted for its lightness, efficiency, and strength (10_Physical Chemical Properties of Bamboo.pdf, p. 4; IS 15912.pdf, p. 2). Its hollow, circular cross-section is considered quite effective and advantageous for structural purposes (IS 15912.pdf, p. 2).",
+          "latency_ms": 4305,
+          "sources": [
+            "10_Physical  Chemical Properties of Bamboo.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf"
+          ]
+        },
+        {
+          "id": "q05",
+          "question": "What taper and curvature limits apply to structural bamboo?",
+          "answer": "Based on the provided document IS 15912.pdf (p. 10), the limits for structural bamboo are as follows:\n\n*   **Taper:** The taper shall not be more than 5.8 mm/m length (or 0.58 percent) (1 in 170) for any grade of bamboo.\n*   **Curvature:** The maximum curvature should not be more than 75 mm in a length of 6 m for any grade of bamboo.",
+          "latency_ms": 2567,
+          "sources": [
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf"
+          ]
+        },
+        {
+          "id": "q06",
+          "question": "What material forms of bamboo are covered for structural use?",
+          "answer": "According to IS 15912.pdf, the structural forms of bamboo covered by the standard include:\n\n*   Round bamboo\n*   Split bamboo\n*   Glued laminated bamboo\n*   Bamboo-based panels (joined together with adhesives or mechanical fasteners)\n\n(Source: IS 15912.pdf, p.3)",
+          "latency_ms": 1899,
+          "sources": [
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf"
+          ]
+        },
+        {
+          "id": "q07",
+          "question": "Why is bamboo considered suitable for housing in earthquake or disaster-prone areas?",
+          "answer": "Bamboo is considered an ideal material for housing in disaster-prone or earthquake-prone areas because of its resilience and light weight. It has the capacity to withstand repetitive loadings, absorb more energy, and show larger deflections before collapse, making it safer under earth tremors (IS 15912.pdf, p.2).",
+          "latency_ms": 3943,
+          "sources": [
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf"
+          ]
+        },
+        {
+          "id": "q08",
+          "question": "What design principles are used for structural bamboo culms?",
+          "answer": "Based on the provided documents, the design of structural bamboo culms is based on the principles of applied mechanics involving the following assumptions:\n\n*   **Elastic behavior:** Bamboo is assumed to behave elastically until failure, as plastic behavior is considered not significant (IS 15912.pdf, p.12).\n*   **Hollow-tube analysis:** Bamboo culms are analyzed as hollow-tube structures (which are not perfectly straight) based on their mean diameter and mean wall thickness (IS 15912.pdf, p.12).",
+          "latency_ms": 2012,
+          "sources": [
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "L15 Bamboo.pdf"
+          ]
+        },
+        {
+          "id": "q09",
+          "question": "What are Grade I, Grade II and Grade III diameter ranges for Group C structural bamboo?",
+          "answer": "According to IS 15912.pdf (p. 10), the diameter ranges for structural Group C species are as follows:\n\n*   **Grade I:** Diameter > 80 mm\n*   **Grade II:** 60 mm < Diameter < 80 mm\n*   **Grade III:** Diameter < 60 mm",
+          "latency_ms": 6766,
+          "sources": [
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf",
+            "IS 15912.pdf"
+          ]
+        },
+        {
+          "id": "q10",
+          "question": "What exact chemical composition percentages of cellulose and lignin in bamboo are listed in the course slides?",
+          "answer": "Based on the provided documents, the only specific chemical composition percentage mentioned is that lignin reaches about 25% in every internode of bamboo shoots (10_Physical Chemical Properties of Bamboo.pdf, p.31). The provided documents do not list a specific percentage for cellulose.",
+          "latency_ms": 4198,
+          "sources": [
+            "10_Physical  Chemical Properties of Bamboo.pdf",
+            "10_Physical  Chemical Properties of Bamboo.pdf",
+            "10_Physical  Chemical Properties of Bamboo.pdf",
+            "10_Physical  Chemical Properties of Bamboo.pdf",
+            "10_Physical  Chemical Properties of Bamboo.pdf"
+          ]
+        }
+      ],
+      "per_sample_scores": [
+        {
+          "user_input": "What are the physical properties of bamboo like density and diameter?",
+          "retrieved_contexts": [
+            "IS 15912 : 2018\n5\nTable 1 Physical and Mechanical Properties of Indian Bamboos  \n(in Round Form)\n( Clause 5.1 )\nSl  \nNo.\nSpecies Properties\nIn Green Condition In Air Dry Condition\n \nDensity \nkg/m3\nModulus \nof Rupture \nN/mm2\nModulus of \nElasticity \u00d7 103 \nN/mm2\nMaximum \nCompressive \nStrength  \nN/mm2\nDensity \nkg/m3\nModulus \nof Rupture \nN/mm2\nModulus of \nElasticity \u00d7 103  \nN/mm2\nMaximum \nCompressive \nStrength  \nN/mm2\n(1) (2) (3) (4) (5) (6) (7) (8) (9) (10)\ni) Bambusa auriculata 594 65.1 15.01 36.7 670 89.1 21.41 54.3\nii) B. balcooa 783 65.4 7.31 46.7 \u2012 \u2012 \u2012 60.6\niii) B. bambos\n(Syn. B. arundinacea)\n559 58.3 5.95 35.3 663 80.1 8.96 53.4\niv) B. burmanica 570 59.7 11.01 39.9 672 105.0 17.81 65.2\nv) B. glancescens\n(Syn. B. nana)\n691 82.8 14.77 53.9 \u2012 \u2012 \u2012 \u2012",
+            "wall thickness are significant in imparting mechanical strength to bamboo against bending and crushing. In a \ncircular cross-section, bamboo is generally hollow and for structural purposes this form is quite effective and \nadvantageous. Each of the species of bamboo has widely different characteristics affecting its usefulness as \nconstructional material. The strength of bamboo culms, their straightness, lightness combined with hardness, \nrange and size of hollowness make them potentially suitable for a variety of applications both structural and \nnon-structural. With good physical and mechanical properties, low shrinkage and good average density, bamboo \nis well suited to replace wood in several applications, especially in slats and panel form. Mass production of",
+            "PHYSICAL PROPERTIES\n\u2022 Diameter: Varies from 20 \u2013 300 mm \n\u2022 Thickness: Thin \u2013 Thick \u2013 Very Thick - Solid\n\u2022 Height: Few meters to nearly 36 m (100 \u2013 120 ft)\n\u2022 Density: 0.54 \u2013 0.78 gm/cm3\n10",
+            "CHEMICAL PROPERTIES\nXiabao Li, \u201cPhysical, chemical, and mechanical properties of bamboo and its utilization potential for fifiberboard manufacturing\u201d, Master\u2019s Thesis, \nLouisiana State University and Agricultural and Mechanical College, 2004\nCellulose, hemicellulose and \nlignin form structures called \nmicrofibrils, which are organized \ninto macrofibrils that mediate \nstructural stability in the plant \ncell wall.",
+            "CHEMICAL PROPERTIES\nXiabao Li, \u201cPhysical, chemical, and mechanical properties of bamboo and its utilization potential for fifiberboard manufacturing\u201d, Master\u2019s Thesis, \nLouisiana State University and Agricultural and Mechanical College, 2004\nCellulose, hemicellulose and \nlignin form structures called \nmicrofibrils, which are organized \ninto macrofibrils that mediate \nstructural stability in the plant \ncell wall."
+          ],
+          "response": "Based on the provided documents, the physical properties of bamboo are as follows:\n\n*   **Density:** \n    *   According to *10_Physical Chemical Properties of Bamboo.pdf* (p. 10), the density is 0.54 \u2013 0.78 gm/cm\u00b3.\n    *   *IS 15912.pdf* (p. 7) provides specific density values for various Indian bamboo species in round form, ranging from 559 to 783 kg/m\u00b3 in green condition and 663 to 672 kg/m\u00b3 in air-dry condition.\n*   **Diameter:** According to *10_Physical Chemical Properties of Bamboo.pdf* (p. 10), the diameter varies from 20 \u2013 300 mm.",
+          "reference": "IS 15912 lists species-wise density in kg/m3 for green and air-dry conditions (for example Bambusa auriculata around 594 kg/m3 green and 670 kg/m3 air-dry). Bamboo is generally hollow; hollowness and wall thickness affect bending and crushing strength. Specific numerical diameter ranges are given in the grading rules rather than as a single universal diameter.",
+          "faithfulness": 1.0,
+          "llm_context_precision_with_reference": NaN,
+          "context_recall": 0.6666666666666666,
+          "answer_relevancy": 0.9905236713435454
+        },
+        {
+          "user_input": "What is the grading system for bamboo culms under IS 15912?",
+          "retrieved_contexts": [
+            "IS 15912 : 2018\n8\n c) Straightness of culm;\n d) Inter nodal length and distribution of nodes;\n e) Wall thickness;\n f) Density and strength; and\n g) Durability and seasoning.\nOne of the above characteristics or sometimes \ncombination of two or three characteristics forms  \nthe basis of grading. The culms shall be segregated \nspecies-wise.\n5.4.2 Diameter and Length\n5.4.2.1 Gradation according to the mean outer diameter\nFor structural Group A and Group B species, culms \nshall be segregated in steps of 10 mm of mean outer \ndiameter as follows:\n a) Special grade : Diameter > 70 mm\n b) Grade I  : 50 mm < Diameter \u2264 70 mm \n c) Grade II  : 30 mm < Diameter \u2264 50 mm \n d) Grade III  : Diameter < 30 mm \nFor structural Group C species, culms shall be",
+            "bending.\n g) Horizontal stacking is generally preferred for \nlarge stacks. Stacking should be done on raised \nplatforms, or placed on a thick plastic sheet to \navoid soil contact. Use separators between each \nrow of bamboo for better air circulation. The \nculms at the bottom of the stack may crack or bend \ndue to the weight of the stack, therefore do not pile \nthem up too high.\n5.4 Grading of Structural Bamboo\n5.4.1 Bamboo shall be graded to ensure that the properties \nof bamboo are satisfactory for use particularly the \nstrength and stiffness properties. Grading of bamboo is \nsorting out on the basis of characteristics important for \nstructural utilization as under:\n a) Diameter and length of culm;\n b) Taper of culm;\n0 10 20 30 40 50 60 70 80 90 100 110\n1.54\n1.40\n1.26\n1.12\n0.98\n0.84\n0.70",
+            "IS 15912 : 2018\n1\nIndian Standard\nSTRUCTURAL DESIGN USING  \nBAMBOO \u2014 CODE OF PRACTICE\n( First Revision )\n1 SCOPE\n1.1 This standard covers the general principles involved \nin the design of structural bamboo in buildings with \nregard to mechanical resistance and durability of \nstructures. Design of both bamboo (round bamboo, split \nbamboo, glued laminated bamboo) and bamboo-based \npanels joined together with adhesives or mechanical \nfasteners are covered in this standard. It also covers \nminimum strength data, dimensional stability, grading \nrequirements and traditional bamboo joints for quality \nassurance. Constructional aspects using bamboo, \nsuch as, work on site, fabrication of components off-\nsite and their erection on site are also covered to the",
+            "IS 15912 : 2018\n14\n4A SADDLE JOINT WITH LASHING AND SIDE PLATES (or Seated Joints)\nPIN HOLE\nDOWEL\n4B BEAM SUPPORTED ON INDEPENDENT\n     SHORT CULM TIED TO THE POST\n4C  TIES PASSING THROUGH A\n      PRE-DRILLED HOLE OR\n      AROUND PEG\n4D PEGGED AND TIED\n      SYSTEM\n4E DOWELLED AND TIED\n      SYSTEM\n4F PURLIN TIED TO RAFTER\nFIG. 4 BEARING JOINTS\n  NOTE \u2014 The above figure is only for representative purpose only. Actual jointing details may vary depending on span, loading, \nadequacy of strength, etc.\nFig. 4 BearuBg Joints\nM. S. BOLT\nWITH NUT\nHORIZONTAL\nCULM (BEAM)\nVERTICAL\nCULM\nWOODEN PLUG\n5B ARRANGEMENT FOR BEARING\n      WITH USE OF NUT AND BOLT\nFIG. 5 SOME NUT BOLT JOINERY DETAILS\nWOODEN\nPLUG\nM. S. BOLT\nWITH NUT\nBAMBOO\nCULM\n5A SYSTEM WITH NARROWED END\nTAPERED STEEL\nOR ALUMINIUM\nRING\nNODE",
+            "IS 15912 : 2018\n2\npressed under specified temperature and pressure to \nobtain sinusoidal or other suitable corrugations.\n3.2.3 Bamboo Mat Veneer Composite \u2014  Panel \nmanufactured with a combination of bamboo mat and \nveneer. Bamboo mat can be either as outer skins or as \ncore/cross-bands. However, the composite panel shall \nbe balanced construction on either side of central ply. \n3.2.4 Beam \u2014  A structural member which supports \nload primarily by its internal resistance to bending.\n3.2.5 Breaking Strength \u2014  A term loosely applied to \na given structural member with respect to the ultimate \nload it can sustain under a given set of conditions.\n3.2.6 Bundle-Column \u2014 A column consisting of three \nor more number of culms bound as integrated unit with \nwire or strap type of fastenings."
+          ],
+          "response": "According to **IS 15912.pdf** (p. 9), bamboo is graded to ensure its properties are satisfactory for structural use, specifically regarding strength and stiffness. Grading is performed by sorting bamboo based on characteristics important for structural utilization, which include:\n\n*   Diameter and length of culm;\n*   Taper of culm;\n*   Straightness of culm;\n*   Inter nodal length and distribution of nodes;\n*   Wall thickness;\n*   Density and strength; and\n*   Durability and seasoning.\n\nOne or a combination of these characteristics forms the basis of grading, and culms must be segregated species-wise (p. 10).\n\nFor structural Group A and Group B species, gradation based on the mean outer diameter is categorized as follows (p. 10):\n*   **Special grade:** Diameter > 70 mm\n*   **Grade I:** 50 mm < Diameter \u2264 70 mm\n*   **Grade II:** 30 mm < Diameter \u2264 50 mm\n*   **Grade III:** Diameter < 30 mm",
+          "reference": "Grading sorts culms by diameter, length and taper. For structural Group C species, culms are segregated in 20 mm steps of mean outer diameter: Grade I diameter greater than 80 mm, Grade II between 60 and 80 mm, Grade III below 60 mm. Taper shall not exceed 5.8 mm/m (0.58 percent) and maximum curvature should not exceed 75 mm in a 6 m length.",
+          "faithfulness": 1.0,
+          "llm_context_precision_with_reference": NaN,
+          "context_recall": 0.3333333333333333,
+          "answer_relevancy": NaN
+        },
+        {
+          "user_input": "How is bamboo used in structural design and construction?",
+          "retrieved_contexts": [
+            "IS 15912 : 2018\n1\nIndian Standard\nSTRUCTURAL DESIGN USING  \nBAMBOO \u2014 CODE OF PRACTICE\n( First Revision )\n1 SCOPE\n1.1 This standard covers the general principles involved \nin the design of structural bamboo in buildings with \nregard to mechanical resistance and durability of \nstructures. Design of both bamboo (round bamboo, split \nbamboo, glued laminated bamboo) and bamboo-based \npanels joined together with adhesives or mechanical \nfasteners are covered in this standard. It also covers \nminimum strength data, dimensional stability, grading \nrequirements and traditional bamboo joints for quality \nassurance. Constructional aspects using bamboo, \nsuch as, work on site, fabrication of components off-\nsite and their erection on site are also covered to the",
+            "IS 15912 : 2018\n19\n8.3.6 Floors\nThe floor of bamboo may be at ground level with \ncovering of bamboo matting, etc. In elevated \nfloors, bamboo members become an integral part \nof structural framework of building. The floor will \ncomprise structural bamboo elements and bamboo \ndecking. In-plane shear strength shall be ensured or \nelse supplementary horizontally stiffening devices \nsuch as bracing in the horizontal plane shall be \ndesigned.\n8.3.7 Jointing Techniques\nThe jointing techniques in construction using bamboo \nshall be in accordance with 8.2.\n9 BAMBOO AS REINFORCEMENT IN \nCONCRETE\n9.1 Due to its fibrous texture, bamboo possesses high \ntensile strength. This can act as an alternate material \nfor reinforcement in concrete within the limitations in",
+            "is well suited to replace wood in several applications, especially in slats and panel form. Mass production of \nbamboo components, if required, may be integrated with treatment facilities near to the site of plantation or site of \nconstruction, for speed and economy in construction. \nThis standard was first published in 2012 which was based on the information contained in the SP 7 : 2005 \n\u2018National Building Code of India 2005\u2019, for structural designing with bamboo. This revision of the standard is \naimed at bringing the provisions at par with the provisions of the SP 7 (Part 6/Sec 3B) : 2016 \u2018National Building \nCode of India 2016: Part 6 Structural Design, Section 3B Bamboo\u2019. Also, other necessary changes have been \nincorporated.",
+            "wall thickness are significant in imparting mechanical strength to bamboo against bending and crushing. In a \ncircular cross-section, bamboo is generally hollow and for structural purposes this form is quite effective and \nadvantageous. Each of the species of bamboo has widely different characteristics affecting its usefulness as \nconstructional material. The strength of bamboo culms, their straightness, lightness combined with hardness, \nrange and size of hollowness make them potentially suitable for a variety of applications both structural and \nnon-structural. With good physical and mechanical properties, low shrinkage and good average density, bamboo \nis well suited to replace wood in several applications, especially in slats and panel form. Mass production of",
+            "Code of India 2016: Part 6 Structural Design, Section 3B Bamboo\u2019. Also, other necessary changes have been \nincorporated.\nIn this revision, the following major changes have been made:\n a) Construction practices using bamboo have been included.\n b) Definitions of some existing terms have been modified as per the prevailing engineering practice and new \nterms relating to bamboo based panel products have been added.\n c) Provisions on bamboo trusses have been further updated.\n d) Some details about bamboo foundations have been included.\n e) Use of bamboo as reinforcement in concrete for appropriate construction has been included.\n f) Provisions for use of bamboo based materials/panel products as walling, flooring roofing, and, in in-fill"
+          ],
+          "response": "Based on the provided documents, bamboo is used in structural design and construction in the following ways:\n\n*   **Structural Applications:** Bamboo is used in buildings for its mechanical resistance and durability. It is utilized in various forms, including round bamboo, split bamboo, glued laminated bamboo, and bamboo-based panels joined with adhesives or mechanical fasteners (IS 15912.pdf, p. 3).\n*   **Structural Components:** Bamboo is used in the construction of trusses, foundations, walling, flooring, and roofing (IS 15912.pdf, p. 2). In elevated floors, bamboo members serve as an integral part of the building's structural framework, comprising structural elements and decking (IS 15912.pdf, p. 21).\n*   **Reinforcement:** Due to its high tensile strength, bamboo can be used as an alternative material for reinforcement in concrete (IS 15912.pdf, p. 21).\n*   **Material Properties:** Because of its physical and mechanical properties\u2014such as straightness, lightness, hardness, and low shrinkage\u2014bamboo is well-suited to replace wood in several applications, particularly in slat and panel form (IS 15912.pdf, p. 2).\n*   **Construction Practices:** The standard covers constructional aspects including work on-site, off-site fabrication of components, and their erection on-site (IS 15912.pdf, p. 3). Jointing techniques must be in accordance with the provisions in the code (IS 15912.pdf, p. 21).",
+          "reference": "Main structural uses include roofing, flooring, shear walls, wall paneling, beams, piles, columns and arches. Trusses and framed skeletons are preferred for capacity and deformation. The standard covers round bamboo, split bamboo, glued laminated bamboo and bamboo-based panels joined with adhesives or mechanical fasteners. Culms are analyzed as hollow-tube members using mean diameter and mean wall thickness, assuming elastic behavior until failure.",
+          "faithfulness": 1.0,
+          "llm_context_precision_with_reference": NaN,
+          "context_recall": 0.25,
+          "answer_relevancy": 0.9611961705720864
+        },
+        {
+          "user_input": "How does bamboo compare to steel and wood as a structural material?",
+          "retrieved_contexts": [
+            "INTERNAL BAMBOO STRUCTURE\nEust\u00e1quio Moreira, Lu\u00eds & Seixas, Mario & Ghavami, Khosrow. (2019). Lightness and efficiency of structural bars: \ncomparison of bamboo, steel and wood bars under compression.",
+            "wall thickness are significant in imparting mechanical strength to bamboo against bending and crushing. In a \ncircular cross-section, bamboo is generally hollow and for structural purposes this form is quite effective and \nadvantageous. Each of the species of bamboo has widely different characteristics affecting its usefulness as \nconstructional material. The strength of bamboo culms, their straightness, lightness combined with hardness, \nrange and size of hollowness make them potentially suitable for a variety of applications both structural and \nnon-structural. With good physical and mechanical properties, low shrinkage and good average density, bamboo \nis well suited to replace wood in several applications, especially in slats and panel form. Mass production of",
+            "tensile strength. This can act as an alternate material \nfor reinforcement in concrete within the limitations in \ndesign and construction. The ultimate tensile strength of \nsome of the species of bamboo in direct tension is nearly \nthe same as that of steel at its yield point. On an average \nit varies from 1 400 to 2 000 kg/cm 2. The principles \nadopted for design of concrete structure with steel is \nalso applicable for the concrete member with bamboo. \nStrength characteristics of steel, concrete and bamboo \nare indicated in Table 4 and the design data for balanced \nsection in beam/slab reinforcement is given in Table 5.\nTable 4 Strength Characteristics of Mild Steel, Bamboo and Concrete  \n(For Reinforcement Purposes)\n( Clause 9.1 )\nSl No. Related Strength Characteristics",
+            "IS 15912 : 2018\n10\n7.5 Structural Components\n7.5.1 Main structural applications in bamboo may \ninclude roofing and flooring, shear walls, wall paneling, \nbeams, piles, columns, arches, etc. Both from the point \nof view of capacity and deformation, trusses and framed \nskeletons are much better options in bamboo. \n7.5.2 Peculiarity of Bamboo as a Design Material\nThis shall be based on the principles of applied \nmechanics involving the following assumptions:\n a) Elastic behaviour of bamboo, until failure (plastic \nbehaviour being considered to be not significant);\n b) Bamboo culms are analyzed as hollow-tube \nstructures (not perfectly straight) member on \nmean diameter and mean wall thickness basis. \nDesigning as a variable thickness hollow-tube \nstructure is a bit complex;",
+            "with IS 848.\n10.2 Structural Usage of Bamboo Based Products\n10.2.1 General\nBamboo mat board (BMB) and bamboo mat veneer \ncomposite (BMVC) have high in-plane rigidity and \nhence high racking strength and are more flexible than \nequivalent plywood. This property of BMB and BMVC \ncan be advantageously used in many engineering \napplications such as wall paneling, composite beams, \ncomposite floor deck and stress skinned panels. \nBamboo mat corrugated sheet (BMCS) is water \nproof and resistant to decay, termites/insects and fire. \nThese sheets may be used as roofing material. Precast \nbamboo reinforced cement concrete and reconstituted \nwood from destructured bamboo can also be used in \nstructural applications.\n10.2.2 Bamboo Composites\nAlong with bamboo, bamboo composites such as"
+          ],
+          "response": "Based on the provided documents, bamboo compares to steel and wood in the following ways:\n\n*   **Comparison to Steel:** The ultimate tensile strength of some bamboo species in direct tension is nearly the same as that of steel at its yield point, varying on average from 1,400 to 2,000 kg/cm\u00b2 (IS 15912.pdf, p. 21). Additionally, the principles used for designing concrete structures with steel are also applicable to concrete members reinforced with bamboo (IS 15912.pdf, p. 21).\n*   **Comparison to Wood:** Bamboo is well-suited to replace wood in several applications, particularly in slat and panel form, due to its good physical and mechanical properties, low shrinkage, and good average density (IS 15912.pdf, p. 2). Furthermore, bamboo mat board (BMB) and bamboo mat veneer composite (BMVC) are more flexible than equivalent plywood (IS 15912.pdf, p. 23).\n*   **General Structural Characteristics:** Bamboo is noted for its lightness, efficiency, and strength (10_Physical Chemical Properties of Bamboo.pdf, p. 4; IS 15912.pdf, p. 2). Its hollow, circular cross-section is considered quite effective and advantageous for structural purposes (IS 15912.pdf, p. 2).",
+          "reference": "Bamboo is compared with steel and wood bars for lightness and efficiency in compression. Because of good physical and mechanical properties, low shrinkage and useful density, it can replace wood in several applications, especially as slats and panels. It also has a high strength-to-weight ratio and is used in disaster-prone and earthquake-prone housing.",
+          "faithfulness": 1.0,
+          "llm_context_precision_with_reference": NaN,
+          "context_recall": 0.6666666666666666,
+          "answer_relevancy": 0.9676860667758914
+        },
+        {
+          "user_input": "What taper and curvature limits apply to structural bamboo?",
+          "retrieved_contexts": [
+            "c) Grade II  : 30 mm < Diameter \u2264 50 mm \n d) Grade III  : Diameter < 30 mm \nFor structural Group C species, culms shall be \nsegregated in steps of 20 mm of mean outer diameter \nas follows:\n 1) Grade I      : Diameter > 80 mm \n 2) Grade II      : 60 mm < Diameter < 80 mm \n 3) Grade III      : Diameter < 60 mm \n  NOTE \u2014 For bamboo species of diameter above 100 mm, \nsuitable testing may be carried out to ensure their load carrying \ncapacity.\n5.4.2.2 The minimum length of culms shall be \npreferably 6 m for facilitating close fittings at joints, \netc.\n5.4.3 Taper\nThe taper shall not be more than 5.8 mm/m length (or \n0.58 percent) (1 in 170) of bamboo in any grade of \nbamboo.\n5.4.4 Curvature\nThe maximum curvature should not be more than  \n75 mm in a length of 6 m of any grade of bamboo.",
+            "bamboo.\n5.4.4 Curvature\nThe maximum curvature should not be more than  \n75 mm in a length of 6 m of any grade of bamboo.\n  NOTE \u2014 Due to the constraint of preferential selection of \nstraighter material out of a lot, more bent material may be \naccommodated to avoid high cost. Following remedial options \nmay be helpful: \n  a) Adopt component assembly method to take care of \nsome degree of curvature (bunching done after holding \ncomponents straight).\n  b) Cut longer bamboo components with less curvature \nout of taller bamboo and use cambered ones for shorter \nlength components. \n5.4.5 Wall Thickness\nPreferably minimum wall thickness of 8 mm shall be \nused for load bearing members unless calculations and \nthe availability dictate otherwise.\n5.5 Durability and Treatability\n5.5.1 Durability",
+            "bending.\n g) Horizontal stacking is generally preferred for \nlarge stacks. Stacking should be done on raised \nplatforms, or placed on a thick plastic sheet to \navoid soil contact. Use separators between each \nrow of bamboo for better air circulation. The \nculms at the bottom of the stack may crack or bend \ndue to the weight of the stack, therefore do not pile \nthem up too high.\n5.4 Grading of Structural Bamboo\n5.4.1 Bamboo shall be graded to ensure that the properties \nof bamboo are satisfactory for use particularly the \nstrength and stiffness properties. Grading of bamboo is \nsorting out on the basis of characteristics important for \nstructural utilization as under:\n a) Diameter and length of culm;\n b) Taper of culm;\n0 10 20 30 40 50 60 70 80 90 100 110\n1.54\n1.40\n1.26\n1.12\n0.98\n0.84\n0.70",
+            "on the basis of their strength properties, namely, \nmodulus of elasticity (E) in bending in green condition \nand modulus of rupture ( R) (extreme fibre stress \nin bending). For structural use in piles and mines\u2019 \ncomponents, an additional criterion of compressive \nstrength is considered in classification. The limits in \nultimate strength values of these groups shall be as \ngiven in Table 2 (these are corresponding to the spread \nof properties in structural timber). \n5.2.2 Bamboo species may be identified using suitable \nmethods.   \n  NOTE \u2014 Methods of identification of bamboo through \nanatomical characters have not been perfected so far. \nIdentification through morphological characters could be done \nonly on full standing culm by experienced sorters.",
+            "mean diameter and mean wall thickness basis. \nDesigning as a variable thickness hollow-tube \nstructure is a bit complex;\n c) Nodes do not occur at constant intervals;\n d) Structural elements of bamboo shall be \nappropriately supported near the nodes of culm \nas and where the structural system demands. The \njoints in the design shall be located near nodes;\n e) Bamboo structures are designed like any other \nconventional structural analysis taking care of \ndetails with regard to supports and joints; and the \ndiameter, wall thickness and initial curvature; and \n f) Joints shall be considered to generally act as a \nhinge or as pinned, unless substantiating data \njustify a fixed joint.\n7.6 Flexural Members\n7.6.1 All flexural members may be designed using the \nprinciples of beam theory."
+          ],
+          "response": "Based on the provided document IS 15912.pdf (p. 10), the limits for structural bamboo are as follows:\n\n*   **Taper:** The taper shall not be more than 5.8 mm/m length (or 0.58 percent) (1 in 170) for any grade of bamboo.\n*   **Curvature:** The maximum curvature should not be more than 75 mm in a length of 6 m for any grade of bamboo.",
+          "reference": "Taper shall not be more than 5.8 mm per metre length (0.58 percent). Maximum curvature should not be more than 75 mm in a length of 6 m for any grade of bamboo.",
+          "faithfulness": 0.8,
+          "llm_context_precision_with_reference": NaN,
+          "context_recall": 1.0,
+          "answer_relevancy": 0.936160733103898
+        },
+        {
+          "user_input": "What material forms of bamboo are covered for structural use?",
+          "retrieved_contexts": [
+            "IS 15912 : 2018\n1\nIndian Standard\nSTRUCTURAL DESIGN USING  \nBAMBOO \u2014 CODE OF PRACTICE\n( First Revision )\n1 SCOPE\n1.1 This standard covers the general principles involved \nin the design of structural bamboo in buildings with \nregard to mechanical resistance and durability of \nstructures. Design of both bamboo (round bamboo, split \nbamboo, glued laminated bamboo) and bamboo-based \npanels joined together with adhesives or mechanical \nfasteners are covered in this standard. It also covers \nminimum strength data, dimensional stability, grading \nrequirements and traditional bamboo joints for quality \nassurance. Constructional aspects using bamboo, \nsuch as, work on site, fabrication of components off-\nsite and their erection on site are also covered to the",
+            "wall thickness are significant in imparting mechanical strength to bamboo against bending and crushing. In a \ncircular cross-section, bamboo is generally hollow and for structural purposes this form is quite effective and \nadvantageous. Each of the species of bamboo has widely different characteristics affecting its usefulness as \nconstructional material. The strength of bamboo culms, their straightness, lightness combined with hardness, \nrange and size of hollowness make them potentially suitable for a variety of applications both structural and \nnon-structural. With good physical and mechanical properties, low shrinkage and good average density, bamboo \nis well suited to replace wood in several applications, especially in slats and panel form. Mass production of",
+            "IS 15912 : 2018\n10\n7.5 Structural Components\n7.5.1 Main structural applications in bamboo may \ninclude roofing and flooring, shear walls, wall paneling, \nbeams, piles, columns, arches, etc. Both from the point \nof view of capacity and deformation, trusses and framed \nskeletons are much better options in bamboo. \n7.5.2 Peculiarity of Bamboo as a Design Material\nThis shall be based on the principles of applied \nmechanics involving the following assumptions:\n a) Elastic behaviour of bamboo, until failure (plastic \nbehaviour being considered to be not significant);\n b) Bamboo culms are analyzed as hollow-tube \nstructures (not perfectly straight) member on \nmean diameter and mean wall thickness basis. \nDesigning as a variable thickness hollow-tube \nstructure is a bit complex;",
+            "( )\n44 2\n32\nD Dw\nD\n\u03c0 \uf8ee\uf8f9 \u2212\u2212\uf8ef\uf8fa\n\uf8ef\uf8fa\uf8f0\uf8fb\n; and\n\u03b4 = deflection or deformation, mm.\n5 MATERIALS \nThe requirements shall be met by the choice of suitable \nmaterials, by appropriate design and detailing and \nby specifying control procedures for production, \nconstruction and use.\n5.1 Species of Bamboo\nMore than 100 species of bamboo are native to \nIndia and a few of them are solid but most of them \nare hollow in structure. In all 20 species have been \nsystematically tested so far. Sixteen species of bamboo \nare recommended for structural usages in round form. \nSome physical and mechanical properties of the same \nare given in Table 1 both for air dry conditions and \ngreen conditions.\n5.1.1 Matured bamboo of at least 4 years of age shall be \nused. The bamboo shall be used after at least six weeks",
+            "in the form of 1.5 mm dia. 20 mm long MS nails \npartially inserted into the bamboo flooring and \nbalance length with the heads of the nails embedded \nin the PCC layer, holding the two components \ntogether. The sectional properties of the combination \nare calculated based on the concept of flitched beams \nfor design ( see Fig. 14).\n10.2.6 Bamboo Concrete Walling Using Flat Bamboo\nLoads on walls and roof do not generally justify use \nof round bamboo as such. So, flat or split bamboo is \npreferred for use in these cases. The flat bamboo works \nlike a wire-net used conventionally to hold cement \nplaster in critical applications. Partial plastering is done \nduring the first day ensuring entry of plastering material \nin the gaps of flat bamboo. This provides the base"
+          ],
+          "response": "According to IS 15912.pdf, the structural forms of bamboo covered by the standard include:\n\n*   Round bamboo\n*   Split bamboo\n*   Glued laminated bamboo\n*   Bamboo-based panels (joined together with adhesives or mechanical fasteners)\n\n(Source: IS 15912.pdf, p.3)",
+          "reference": "Structural design covers round bamboo, split bamboo, glued laminated bamboo, and bamboo-based panels that are joined with adhesives or mechanical fasteners.",
+          "faithfulness": 1.0,
+          "llm_context_precision_with_reference": NaN,
+          "context_recall": 1.0,
+          "answer_relevancy": 0.862798383972652
+        },
+        {
+          "user_input": "Why is bamboo considered suitable for housing in earthquake or disaster-prone areas?",
+          "retrieved_contexts": [
+            "Resilience coupled with light weight makes bamboo an ideal material for housing in disaster prone/earthquake \nprone areas. It has the capacity to withstand repetitive loadings and absorb more energy and show larger \ndeflections before collapse and as such is safer under earth tremors. As the design guidelines were inadequate, \nthe application of bamboo as an engineering material was largely based on practical and engineering experience.  \nA need was therefore felt to develop a design and construction code for bamboo to cater to a number of social and \ntrade advantages, engineering recognition and the improved status of bamboo as an engineering material. Forest \nResearch Institute, Dehradun and some other organizations have been engaged in bamboo research in the country",
+            "FOREWORD\nThis Indian Standard (First Revision) was adopted by the Bureau of Indian Standards, after the draft finalized by \nthe Building Construction Practices Sectional Committee had been approved by the Civil Engineering Division \nCouncil.\nBamboo is a versatile resource possessing high strength-to-weight ratio and cost ratio and offers considerable ease \nin working with simpler tools. It has a long and well established tradition as a building material. The application \nof bamboo as a constructional material is largely based on established traditions and intuitions of forefathers \nthroughout the tropical and sub-tropical regions. \nResilience coupled with light weight makes bamboo an ideal material for housing in disaster prone/earthquake",
+            "IS 15912 : 2018\n30\nANNEX C\n( Foreword )\nRECOMMENDATIONS FOR BAMBOO STRUCTURES IN  \nHIGH WIND/CYCLONE PRONE AREAS\nC-1 Given below are some recommendations for \nbamboo structures in high wind/cyclone prone areas, \nwhich are based on Rapid Visual Screening (RVS) of \nthe damages of past events: \n a) Prefer a square plan of the building symmetrical \nto the arrangement of partitions and openings \nfor balanced distribution of forces within the \nstructure. Window positioning be planned in such \na way that wind entering through window could \npass through similar opening on opposite wall in \norder to reduce built-up pressure, and incorporate \nridge vents.\n b) A hip-shaped, pyramidal or a conical roofing be \npreferred to gable end or mono-pitch ones for least \nwind resistance.",
+            "green conditions.\n5.1.1 Matured bamboo of at least 4 years of age shall be \nused. The bamboo shall be used after at least six weeks \nof felling period.  \n5.1.2 Bamboo shall be treated in accordance with  \nIS 9096.\n5.1.3 Solid bamboos or bamboos whose wall thickness \nis comparatively more and which are generally having \nnodes very closer are often considered good for \nstructural purposes.\n5.1.4 Broken, damaged or collapsed bamboo shall be \nrejected. Dead and immature bamboos, bore/ ghoon \nholes, decay, collapse, checks more than 3 mm in \ndepth, shall be avoided.\n5.2 Grouping\n5.2.1 Sixteen species of bamboo recommended for \nstructural applications are classified in three groups \non the basis of their strength properties, namely, \nmodulus of elasticity (E) in bending in green condition",
+            "sclerenchymatous fibres. Split bamboo is more rapidly \ndestroyed than round bamboo. For making bamboo \ndurable, suitable treatment for preserving bamboo shall \nbe given. However, special attention shall be given \nto environmental impact and to the health aspects of \nlabour and the users.\n5.5.2 Treatability\nTo ensure an adequately durable structure, bamboo \nshall be treated in accordance with IS 9096 and the \nfollowing inter-related factors shall be considered:\n a) Expected service life of the bamboo;\n b) Use of the structure and expected environmental \nconditions;\n c) Required performance criteria; and \n d) Quality of workmanship.\n5.5.3 Fire safety of bamboo structures shall be ensured, \nfor which the treatment prescribed in 8.3.4 may be \nfollowed.\n5.6 Storage and Stacking of Bamboo"
+          ],
+          "response": "Bamboo is considered an ideal material for housing in disaster-prone or earthquake-prone areas because of its resilience and light weight. It has the capacity to withstand repetitive loadings, absorb more energy, and show larger deflections before collapse, making it safer under earth tremors (IS 15912.pdf, p.2).",
+          "reference": "Bamboo has a high strength-to-weight ratio, can be worked with simple tools, and is resilient, which makes it suitable for housing in disaster-prone and earthquake-prone areas.",
+          "faithfulness": 1.0,
+          "llm_context_precision_with_reference": NaN,
+          "context_recall": 1.0,
+          "answer_relevancy": 0.9402728189430274
+        },
+        {
+          "user_input": "What design principles are used for structural bamboo culms?",
+          "retrieved_contexts": [
+            "IS 15912 : 2018\n10\n7.5 Structural Components\n7.5.1 Main structural applications in bamboo may \ninclude roofing and flooring, shear walls, wall paneling, \nbeams, piles, columns, arches, etc. Both from the point \nof view of capacity and deformation, trusses and framed \nskeletons are much better options in bamboo. \n7.5.2 Peculiarity of Bamboo as a Design Material\nThis shall be based on the principles of applied \nmechanics involving the following assumptions:\n a) Elastic behaviour of bamboo, until failure (plastic \nbehaviour being considered to be not significant);\n b) Bamboo culms are analyzed as hollow-tube \nstructures (not perfectly straight) member on \nmean diameter and mean wall thickness basis. \nDesigning as a variable thickness hollow-tube \nstructure is a bit complex;",
+            "IS 15912 : 2018\n1\nIndian Standard\nSTRUCTURAL DESIGN USING  \nBAMBOO \u2014 CODE OF PRACTICE\n( First Revision )\n1 SCOPE\n1.1 This standard covers the general principles involved \nin the design of structural bamboo in buildings with \nregard to mechanical resistance and durability of \nstructures. Design of both bamboo (round bamboo, split \nbamboo, glued laminated bamboo) and bamboo-based \npanels joined together with adhesives or mechanical \nfasteners are covered in this standard. It also covers \nminimum strength data, dimensional stability, grading \nrequirements and traditional bamboo joints for quality \nassurance. Constructional aspects using bamboo, \nsuch as, work on site, fabrication of components off-\nsite and their erection on site are also covered to the",
+            "less than 1:170.\n7.7.4 For strength and stability, larger diameter thick \nwalled sections of bamboo with closely spaced nodes \nshall be used. Alternatively, smaller sections may be \ntied together as a bundle-column.\n7.8 A single bamboo culm is not an optimum component \nto structurally design different load bearing members. \nBunching of bamboo is inevitable to fabricate beams, \ncolumns, etc. There is no end to the number of culms \nin bunching. However, different components pose \nFree Standard provided by BIS via BSB Edge Private Limited to Inder Chhetiya - \nDHULE(indershetiya09@gmail.com) 103.21.125.76 [for non-commercial use only].",
+            "tensile strength. This can act as an alternate material \nfor reinforcement in concrete within the limitations in \ndesign and construction. The ultimate tensile strength of \nsome of the species of bamboo in direct tension is nearly \nthe same as that of steel at its yield point. On an average \nit varies from 1 400 to 2 000 kg/cm 2. The principles \nadopted for design of concrete structure with steel is \nalso applicable for the concrete member with bamboo. \nStrength characteristics of steel, concrete and bamboo \nare indicated in Table 4 and the design data for balanced \nsection in beam/slab reinforcement is given in Table 5.\nTable 4 Strength Characteristics of Mild Steel, Bamboo and Concrete  \n(For Reinforcement Purposes)\n( Clause 9.1 )\nSl No. Related Strength Characteristics",
+            "TD 643: DESIGN OF BAMBOO STRUCTURES\nBy\nDr. Chaaruchandra Korde\nAssistant Professor, Centre for Technology Alternatives for Rural Areas\nIndian Institute of Technology Bombay\nDESIGN OF STRUCTURAL MEMBERS\nDesign of Bamboo Tension Members\n(20.03.2026\n)"
+          ],
+          "response": "Based on the provided documents, the design of structural bamboo culms is based on the principles of applied mechanics involving the following assumptions:\n\n*   **Elastic behavior:** Bamboo is assumed to behave elastically until failure, as plastic behavior is considered not significant (IS 15912.pdf, p.12).\n*   **Hollow-tube analysis:** Bamboo culms are analyzed as hollow-tube structures (which are not perfectly straight) based on their mean diameter and mean wall thickness (IS 15912.pdf, p.12).",
+          "reference": "Structural design is based on applied mechanics, assuming elastic behavior until failure. Bamboo culms are analyzed as hollow-tube structures using mean outer diameter and mean wall thickness.",
+          "faithfulness": 1.0,
+          "llm_context_precision_with_reference": NaN,
+          "context_recall": 1.0,
+          "answer_relevancy": 0.9438866902128965
+        },
+        {
+          "user_input": "What are Grade I, Grade II and Grade III diameter ranges for Group C structural bamboo?",
+          "retrieved_contexts": [
+            "c) Grade II  : 30 mm < Diameter \u2264 50 mm \n d) Grade III  : Diameter < 30 mm \nFor structural Group C species, culms shall be \nsegregated in steps of 20 mm of mean outer diameter \nas follows:\n 1) Grade I      : Diameter > 80 mm \n 2) Grade II      : 60 mm < Diameter < 80 mm \n 3) Grade III      : Diameter < 60 mm \n  NOTE \u2014 For bamboo species of diameter above 100 mm, \nsuitable testing may be carried out to ensure their load carrying \ncapacity.\n5.4.2.2 The minimum length of culms shall be \npreferably 6 m for facilitating close fittings at joints, \netc.\n5.4.3 Taper\nThe taper shall not be more than 5.8 mm/m length (or \n0.58 percent) (1 in 170) of bamboo in any grade of \nbamboo.\n5.4.4 Curvature\nThe maximum curvature should not be more than  \n75 mm in a length of 6 m of any grade of bamboo.",
+            "IS 15912 : 2018\n8\n c) Straightness of culm;\n d) Inter nodal length and distribution of nodes;\n e) Wall thickness;\n f) Density and strength; and\n g) Durability and seasoning.\nOne of the above characteristics or sometimes \ncombination of two or three characteristics forms  \nthe basis of grading. The culms shall be segregated \nspecies-wise.\n5.4.2 Diameter and Length\n5.4.2.1 Gradation according to the mean outer diameter\nFor structural Group A and Group B species, culms \nshall be segregated in steps of 10 mm of mean outer \ndiameter as follows:\n a) Special grade : Diameter > 70 mm\n b) Grade I  : 50 mm < Diameter \u2264 70 mm \n c) Grade II  : 30 mm < Diameter \u2264 50 mm \n d) Grade III  : Diameter < 30 mm \nFor structural Group C species, culms shall be",
+            "IS 15912 : 2018\n6\nTable 2 Properties of Structural Bamboo\n( Clause 5.2.1 )\nSl No. Group Modulus of Rupture (R)\nN/mm2\nModulus of Elasticity in \nBending (E ) \u00d7 103  \nN/mm2\nMaximum Compressive \nStrength (  fc, max )\n(See Note)\nN/mm2\n(1) (2) (3) (4) (5)\ni) A R > 70 E > 9  MCS > 35\nii) B  70 \u2265 R > 50 9 \u2265 E > 6 35 > MCS > 30\niii) C 50 \u2265 R > 30 6 \u2265 E > 3 30 > MCS > 25\n  NOTE \u2014 The values are based on tests conducted along the fibres.\nTable 3 Safe Permissible Stresses of Bamboos for Structural Designing1)\n( Clauses 5.2.3, 6.2 and 6.3 )\nSl\nNo.\nSpecies Extreme Fibre Stress in \nBending Tension\nN/mm2\nModulus of  \nElasticity \u00d7 103 \nN/mm2\nAllowable Compressive \nStress\n(See Note 2)\nN/mm2\n(1)  (2) (3) (4) (5)\ni) Group A:\n a) Bambusa glancescens \n(Syn. B. nana)\n20.7 3.28 15.4",
+            "bending.\n g) Horizontal stacking is generally preferred for \nlarge stacks. Stacking should be done on raised \nplatforms, or placed on a thick plastic sheet to \navoid soil contact. Use separators between each \nrow of bamboo for better air circulation. The \nculms at the bottom of the stack may crack or bend \ndue to the weight of the stack, therefore do not pile \nthem up too high.\n5.4 Grading of Structural Bamboo\n5.4.1 Bamboo shall be graded to ensure that the properties \nof bamboo are satisfactory for use particularly the \nstrength and stiffness properties. Grading of bamboo is \nsorting out on the basis of characteristics important for \nstructural utilization as under:\n a) Diameter and length of culm;\n b) Taper of culm;\n0 10 20 30 40 50 60 70 80 90 100 110\n1.54\n1.40\n1.26\n1.12\n0.98\n0.84\n0.70",
+            "section/shape.\n3.2.19 Fundamental or Ultimate Stress  \u2014 The  \nstress which is determined on a specified type/size \nof culms of bamboo, in accordance with standard \npractice and does not take into account the effects  \nof naturally occurring characteristics and other \nfactors.\n3.2.20 Inner Diameter \u2014 Diameter of internal cavity of \na hollow piece of bamboo.\n3.2.21 Inside Location \u2014  Position in buildings in \nwhich bamboo remains continuously dry or protected \nfrom weather.\n3.2.22 Joint \u2014  A connection between two or more \nbamboo structural elements.\n3.2.23 Joist \u2014 A small beam directly supporting floor, \nceiling or roof of a structure.\n3.2.24 Length of Internode \u2014  Distance between \nadjacent nodes.\n3.2.25 Loaded End or Compression End Distance \u2014"
+          ],
+          "response": "According to IS 15912.pdf (p. 10), the diameter ranges for structural Group C species are as follows:\n\n*   **Grade I:** Diameter > 80 mm\n*   **Grade II:** 60 mm < Diameter < 80 mm\n*   **Grade III:** Diameter < 60 mm",
+          "reference": "For structural Group C species: Grade I is diameter greater than 80 mm, Grade II is 60 mm to 80 mm, and Grade III is diameter less than 60 mm, using mean outer diameter in 20 mm steps.",
+          "faithfulness": 0.75,
+          "llm_context_precision_with_reference": 0.9999999999,
+          "context_recall": 1.0,
+          "answer_relevancy": 0.575175435861178
+        },
+        {
+          "user_input": "What exact chemical composition percentages of cellulose and lignin in bamboo are listed in the course slides?",
+          "retrieved_contexts": [
+            "CHEMICAL PROPERTIES\nLignin acts as a vital structural component in bamboo, providing rigidity, \nstrength, and durability by reinforcing cell walls and acting as a natural \nadhesive binder for cellulose and hemicellulose. It enhances hydrophobic \nproperties for water transport, resists degradation by pests and fungi, and \nincreases compressive strength while contributing to overall biomass \nrecalcitrance.\nShimada, Natsumi & Munekata, Noriaki & Tsuyama, Taku & Matsushita, Yasuyuki & Fukushima, Kazuhiko & Kijidani, \nYoshio & Takabe, Keiji & Yazaki, Kazufumi & Kamei, Ichiro. (2021). Active Transport of Lignin Precursors into Membrane \nVesicles from Lignifying Tissues of Bamboo. Plants. 10. 2237. 10.3390/plants10112237.",
+            "Vesicles from Lignifying Tissues of Bamboo. Plants. 10. 2237. 10.3390/plants10112237. \nThe lignin distribution in the growing bamboo culms was examined by Wiesner\nreaction and the lignin content in each internode was determined using the \nrapid thioglycolic acid method (Figure 2). Ligni\ufb01cation occurred \ufb01rst in the \nprotoxylem, then in the metaxylem, vascular \ufb01ber, and \ufb01nally in the \nparenchyma of the ground tissue (Figure 2A).\nThe lignin content increased from the lower internodes toward the tip of the \nbamboo shoots during the early growth stages. The lignin content increased \ngradually until July, even after the cessation of elongation growth, and reached \nabout 25% in every internode (Figure 2B).",
+            "CHEMICAL PROPERTIES\nXiabao Li, \u201cPhysical, chemical, and mechanical properties of bamboo and its utilization potential for fifiberboard manufacturing\u201d, Master\u2019s Thesis, \nLouisiana State University and Agricultural and Mechanical College, 2004\nCellulose, hemicellulose and \nlignin form structures called \nmicrofibrils, which are organized \ninto macrofibrils that mediate \nstructural stability in the plant \ncell wall.",
+            "CHEMICAL PROPERTIES\nXiabao Li, \u201cPhysical, chemical, and mechanical properties of bamboo and its utilization potential for fifiberboard manufacturing\u201d, Master\u2019s Thesis, \nLouisiana State University and Agricultural and Mechanical College, 2004\nCellulose, hemicellulose and \nlignin form structures called \nmicrofibrils, which are organized \ninto macrofibrils that mediate \nstructural stability in the plant \ncell wall.",
+            "CHEMICAL PROPERTIES\nXiabao Li, \u201cPhysical, chemical, and mechanical properties of bamboo and its utilization potential for fifiberboard manufacturing\u201d, Master\u2019s Thesis, \nLouisiana State University and Agricultural and Mechanical College, 2004\nCellulose, hemicellulose and \nlignin form structures called \nmicrofibrils, which are organized \ninto macrofibrils that mediate \nstructural stability in the plant \ncell wall."
+          ],
+          "response": "Based on the provided documents, the only specific chemical composition percentage mentioned is that lignin reaches about 25% in every internode of bamboo shoots (10_Physical Chemical Properties of Bamboo.pdf, p.31). The provided documents do not list a specific percentage for cellulose.",
+          "reference": "The provided lecture notes mention chemical composition only by citing other work; they do not list specific cellulose or lignin percentages. The correct grounded answer is that those exact figures are not in the provided documents.",
+          "faithfulness": 1.0,
+          "llm_context_precision_with_reference": 0.8041666666465626,
+          "context_recall": 1.0,
+          "answer_relevancy": 0.8567771185788516
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "domain": "Design of Bamboo Structures (TD 643 / IS 15912)",
+  "items": [
+    {
+      "id": "q01",
+      "question": "What are the physical properties of bamboo like density and diameter?",
+      "ground_truth": "IS 15912 lists species-wise density in kg/m3 for green and air-dry conditions (for example Bambusa auriculata around 594 kg/m3 green and 670 kg/m3 air-dry). Bamboo is generally hollow; hollowness and wall thickness affect bending and crushing strength. Specific numerical diameter ranges are given in the grading rules rather than as a single universal diameter."
+    },
+    {
+      "id": "q02",
+      "question": "What is the grading system for bamboo culms under IS 15912?",
+      "ground_truth": "Grading sorts culms by diameter, length and taper. For structural Group C species, culms are segregated in 20 mm steps of mean outer diameter: Grade I diameter greater than 80 mm, Grade II between 60 and 80 mm, Grade III below 60 mm. Taper shall not exceed 5.8 mm/m (0.58 percent) and maximum curvature should not exceed 75 mm in a 6 m length."
+    },
+    {
+      "id": "q03",
+      "question": "How is bamboo used in structural design and construction?",
+      "ground_truth": "Main structural uses include roofing, flooring, shear walls, wall paneling, beams, piles, columns and arches. Trusses and framed skeletons are preferred for capacity and deformation. The standard covers round bamboo, split bamboo, glued laminated bamboo and bamboo-based panels joined with adhesives or mechanical fasteners. Culms are analyzed as hollow-tube members using mean diameter and mean wall thickness, assuming elastic behavior until failure."
+    },
+    {
+      "id": "q04",
+      "question": "How does bamboo compare to steel and wood as a structural material?",
+      "ground_truth": "Bamboo is compared with steel and wood bars for lightness and efficiency in compression. Because of good physical and mechanical properties, low shrinkage and useful density, it can replace wood in several applications, especially as slats and panels. It also has a high strength-to-weight ratio and is used in disaster-prone and earthquake-prone housing."
+    },
+    {
+      "id": "q05",
+      "question": "What taper and curvature limits apply to structural bamboo?",
+      "ground_truth": "Taper shall not be more than 5.8 mm per metre length (0.58 percent). Maximum curvature should not be more than 75 mm in a length of 6 m for any grade of bamboo."
+    },
+    {
+      "id": "q06",
+      "question": "What material forms of bamboo are covered for structural use?",
+      "ground_truth": "Structural design covers round bamboo, split bamboo, glued laminated bamboo, and bamboo-based panels that are joined with adhesives or mechanical fasteners."
+    },
+    {
+      "id": "q07",
+      "question": "Why is bamboo considered suitable for housing in earthquake or disaster-prone areas?",
+      "ground_truth": "Bamboo has a high strength-to-weight ratio, can be worked with simple tools, and is resilient, which makes it suitable for housing in disaster-prone and earthquake-prone areas."
+    },
+    {
+      "id": "q08",
+      "question": "What design principles are used for structural bamboo culms?",
+      "ground_truth": "Structural design is based on applied mechanics, assuming elastic behavior until failure. Bamboo culms are analyzed as hollow-tube structures using mean outer diameter and mean wall thickness."
+    },
+    {
+      "id": "q09",
+      "question": "What are Grade I, Grade II and Grade III diameter ranges for Group C structural bamboo?",
+      "ground_truth": "For structural Group C species: Grade I is diameter greater than 80 mm, Grade II is 60 mm to 80 mm, and Grade III is diameter less than 60 mm, using mean outer diameter in 20 mm steps."
+    },
+    {
+      "id": "q10",
+      "question": "What exact chemical composition percentages of cellulose and lignin in bamboo are listed in the course slides?",
+      "ground_truth": "The provided lecture notes mention chemical composition only by citing other work; they do not list specific cellulose or lignin percentages. The correct grounded answer is that those exact figures are not in the provided documents."
+    }
+  ]
+}
